@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Premain-Class: com.xiaoyu.preMainAgentClz
+Archiver-Version: Plexus Archiver
+Built-By: ji.zhou
+Agent-Class: com.xiaoyu.agentMainAgentClz
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_112
+

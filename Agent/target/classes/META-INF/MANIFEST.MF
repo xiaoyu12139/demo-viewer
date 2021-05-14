@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Premain-Class: com.xiaoyu.preMainAgentClz
+Built-By: ji.zhou
+Agent-Class: com.xiaoyu.agentMainAgentClz
+Can-Redefine-Classes: true
+Build-Jdk: 1.8.0_112
+Created-By: Maven Integration for Eclipse
+
