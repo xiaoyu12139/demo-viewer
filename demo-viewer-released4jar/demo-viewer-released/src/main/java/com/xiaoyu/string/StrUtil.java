@@ -1,7 +1,7 @@
 package com.xiaoyu.string;
 
 public class StrUtil {
-//	public static String CONTEXT_PATH = StrUtil.class.getResource("/").toString().replace("/", "\\").substring(6);
+	//	public static String CONTEXT_PATH = StrUtil.class.getResource("/").toString().replace("/", "\\").substring(6);
 	public static String CONTEXT_PATH = System.getProperty("user.dir") + "\\conf";
 	public static String LOG_IMG = CONTEXT_PATH + "\\imags\\demo_viewer.png";
 	public static String SEARCH_IMG = CONTEXT_PATH + "\\imags\\search.png";
@@ -33,5 +33,5 @@ public class StrUtil {
 	public static String END_COMPRESS = CONTEXT_PATH + "\\imags\\compress.png";
 	public static String WARNING_IMG = CONTEXT_PATH + "\\imags\\warning.png";
 	
-	
+	public static String JAR_NAME = System.getProperty("user.dir") + "\\demo-viewer-1.0.0.jar";
 }

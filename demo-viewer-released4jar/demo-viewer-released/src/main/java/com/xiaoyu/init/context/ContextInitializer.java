@@ -24,6 +24,7 @@ import com.xiaoyu.annotation.InitModel;
 import com.xiaoyu.annotation.SingletonBean;
 import com.xiaoyu.init.Initializer;
 import com.xiaoyu.modifyclass.AddCallBack;
+import com.xiaoyu.string.StrUtil;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -88,8 +89,21 @@ public class ContextInitializer implements Initializer {
 			for (String temp : callbackArgs) {
 				vm.loadAgent(agentPath, temp);
 			}
+			File file = new File(System.getProperty("user.dir") + "\\tmp\\");
+			delete(file);
 		} catch (Exception e) {
 			e.printStackTrace();
+		}
+	}
+
+	private void delete(File file) {
+		if(file.isFile()) {
+			file.delete();
+		}else {
+			for(File temp : file.listFiles()) {
+				delete(temp);
+			}
+			file.delete();
 		}
 	}
 
@@ -166,7 +180,7 @@ public class ContextInitializer implements Initializer {
 		List<Class<?>> listSingleton = new ArrayList<>();
 		List<Class<?>> listInjection = new ArrayList<>();
 		List<Class<?>> callBackClass = new ArrayList<>();
-		String jarName = "D:\\my\\resource\\project\\demo-viewer-released\\target\\swing-tips-0.0.1-SNAPSHOT.jar";
+		String jarName = StrUtil.JAR_NAME;
 		JarFile jarFile = null;
 		try {
 			jarFile = new JarFile(jarName);

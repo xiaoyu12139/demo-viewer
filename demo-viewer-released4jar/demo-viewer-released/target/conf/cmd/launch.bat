@@ -9,11 +9,9 @@ set TooLS_ME=.\lib\tools.jar
 
 if exist %TOOLS_JDK% (
     set TARGET_TOOLS=%TOOLS_JDK%
-) ^
-else if exist %TOOLS_JRE% (
+) else if exist %TOOLS_JRE% (
     set TARGET_TOOLS=%TOOLS_JDK%
-) ^
-else if exist %TOOLS_ME% (
+) else if exist %TOOLS_ME% (
     set TARGET_TOOLS=%TOOLS_JDK%
 )
 
@@ -21,7 +19,7 @@ if "%TARGET_TOOLS%" == "" goto :error2
 set MAIN_JAR=.\demo-viewer-1.0.0.jar
 if not exist %MAIN_JAR% goto :error3
 
-¡°%JAVA_HOME%\bin\java.exe¡± -Xbootclasspath/a:%TARGET_TOOLS% -jar %MAIN_JAR%
+"%JAVA_HOME%\bin\java.exe" -Xbootclasspath/a:%TARGET_TOOLS% -jar %MAIN_JAR%
 
 goto :end
 
