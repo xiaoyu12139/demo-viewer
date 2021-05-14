@@ -1,4 +1,4 @@
-# demo-viewer
+# demo-viewer 注意：jdk1.8能完美运行，其他版本可能会报错。因为tools.jar在jdk9开始就取消了，而javaagent也被jdk.hotspot.agent模块代替
 项目demo快速查看器：开发运行环境java1.8<br/>
 1、项目实现为了解决因为各种java类的小型项目运行查看，但是一波又一波导入十分麻烦所以设计了这个小型项目查看器。<br/>
 2、左上方的选择按钮，可以选择包含所有项目的父目录<br/>
