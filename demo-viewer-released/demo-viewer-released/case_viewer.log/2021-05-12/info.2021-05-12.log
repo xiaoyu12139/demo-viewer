@@ -1,0 +1,15 @@
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.BackListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.BackListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.BackListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.BackListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.modifyclass.AddCallBack | D:\my\resource\project\swing-tips-last5-12\swing-tips-last\target\classes\com\xiaoyu\listener\BackListener.class
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CardChangeClickListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CardChangeClickListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CardChangeClickListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CardChangeClickListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.modifyclass.AddCallBack | D:\my\resource\project\swing-tips-last5-12\swing-tips-last\target\classes\com\xiaoyu\listener\CardChangeClickListener.class
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CopyListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CopyListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CopyListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.init.context.ContextInitializer | com.xiaoyu.listener.CopyListener start callback
+2021-05-12 12:13:01 | main | INFO  | com.xiaoyu.modifyclass.AddCallBack | D:\my\resource\project\swing-tips-last5-12\swing-tips-last\target\classes\com\xiaoyu\listener\CopyListener.class

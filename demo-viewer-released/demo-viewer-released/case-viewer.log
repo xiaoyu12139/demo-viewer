@@ -1,0 +1,50 @@
+571  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\BackListener.class
+577  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CardChangeClickListener.class
+581  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CatalogueFocusListener.class
+584  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CatalogueTreeListener.class
+586  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\ChooseListener.class
+588  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\ContentTreeListener.class
+591  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CopyListener.class
+593  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\LastListener.class
+595  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\NextListener.class
+598  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\RefreshActionListener.class
+601  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\RunListener.class
+604  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\RunRuleListener.class
+607  [main] INFO  com.xiaoyu.modifyclass.AddCallBack - D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\WindowCloseListener.class
+706  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\BackListener.class?com.xiaoyu.listener.BackListener
+716  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CardChangeClickListener.class?com.xiaoyu.listener.CardChangeClickListener
+725  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CatalogueFocusListener.class?com.xiaoyu.listener.CatalogueFocusListener
+734  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CatalogueTreeListener.class?com.xiaoyu.listener.CatalogueTreeListener
+744  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\ChooseListener.class?com.xiaoyu.listener.ChooseListener
+751  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\ContentTreeListener.class?com.xiaoyu.listener.ContentTreeListener
+760  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\CopyListener.class?com.xiaoyu.listener.CopyListener
+766  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\LastListener.class?com.xiaoyu.listener.LastListener
+772  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\NextListener.class?com.xiaoyu.listener.NextListener
+781  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\RefreshActionListener.class?com.xiaoyu.listener.RefreshActionListener
+790  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\RunListener.class?com.xiaoyu.listener.RunListener
+798  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\RunRuleListener.class?com.xiaoyu.listener.RunRuleListener
+806  [Attach Listener] INFO  com.xiaoyu.ReloadAsmClass - agentArgs: D:\my\resource\project\swing-tips-last\target\classes\com\xiaoyu\listener\WindowCloseListener.class?com.xiaoyu.listener.WindowCloseListener
+828  [main] INFO  com.xiaoyu.model.ModelFactory - ModelFactory init
+854  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.model.ContentModel not hava the method initializer
+855  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.model.DialogModel not hava the method initializer
+855  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.model.MatchModel not hava the method initializer
+855  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.model.ModelFactory not hava the method initializer
+855  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.model.RunModel not hava the method initializer
+918  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.RunRuleListener start callback
+931  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.RefreshActionListener start callback
+953  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.WindowCloseListener start callback
+954  [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.ChooseListener start callback
+1011 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.CatalogueFocusListener start callback
+1015 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.CardChangeClickListener start callback
+1015 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.CardChangeClickListener start callback
+1135 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.CatalogueTreeListener start callback
+1142 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.BackListener start callback
+1153 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.CopyListener start callback
+1158 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.ContentTreeListener start callback
+1160 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.RunListener start callback
+1160 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.LastListener start callback
+1160 [main] INFO  c.x.init.context.ContextInitializer - com.xiaoyu.listener.NextListener start callback
+7961 [AWT-EventQueue-0] INFO  c.x.listener.WindowCloseListener - {"fast":false,"mainClass":"example.MainPanel"}
+7961 [AWT-EventQueue-0] INFO  c.x.listener.WindowCloseListener - {"currentDialogFiles":[".config",".eclipse",".lemminx",".m2",".p2",".sonarlint",".tooling","AppData","Application Data","Cookies","Desktop","Documents","Downloads","Favorites","Links","Local Settings","Music","My Documents","NetHood","Pictures","PrintHood","Recent","Saved Games","SendTo","Start Menu","TOSHIBA","Templates","Videos","eclipse-workspace"],"lastClickTime":1620900703552,"lastSelect":"\\AppData","root":"C:\\Users\\ji.zhou"}
+7961 [AWT-EventQueue-0] INFO  c.x.listener.WindowCloseListener - {"lastBackClickTime":0,"path":"C:\\Users\\ji.zhou\\AppData"}
+7961 [AWT-EventQueue-0] INFO  c.x.listener.WindowCloseListener - write end in file:D:\my\resource\project\swing-tips-last\target\classes\\json_object\model

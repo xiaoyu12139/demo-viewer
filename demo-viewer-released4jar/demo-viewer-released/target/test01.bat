@@ -1,0 +1,1 @@
+"%JAVA_HOME%\bin\java.exe" -Xbootclasspath/a:.\lib\tools.jar -jar demo-viewer-1.0.0.jar
