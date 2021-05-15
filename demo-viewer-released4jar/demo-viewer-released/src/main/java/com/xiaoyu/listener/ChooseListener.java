@@ -97,6 +97,7 @@ public class ChooseListener implements ActionListener {
 		box.add(Box.createHorizontalGlue());
 		box.add(cancelBtn);
 		box.add(Box.createHorizontalStrut(50));
+		dialog.setAlwaysOnTop(true);
 		dialog.getContentPane().add(panel);
 		dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 		dialog.setLocationRelativeTo(null);
