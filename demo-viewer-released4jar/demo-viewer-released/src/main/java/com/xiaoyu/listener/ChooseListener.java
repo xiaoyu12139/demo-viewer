@@ -49,6 +49,8 @@ public class ChooseListener implements ActionListener {
 		String temp = dialogModel.getRoot();
 		dialogModel.setRoot(chooser.getSelectedFile().getAbsolutePath());
 		dialogModel.resetCurrentDialogFiles();
+		SearchKeyListener.store.clear();
+		SearchKeyListener.store.addAll(dialogModel.getCurrentDialogFiles());
 		if (dialogModel.getCurrentDialogFiles().size() == 0) {
 			showMessage(temp);
 		}

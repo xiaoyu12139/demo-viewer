@@ -29,13 +29,12 @@ import com.xiaoyu.annotation.Autowired;
 import com.xiaoyu.annotation.SingletonBean;
 import com.xiaoyu.init.Initializer;
 import com.xiaoyu.listener.CardChangeClickListener;
-import com.xiaoyu.listener.CatalogueFocusListener;
 import com.xiaoyu.listener.CatalogueTreeListener;
 import com.xiaoyu.listener.ChooseListener;
+import com.xiaoyu.listener.SearchKeyListener;
 import com.xiaoyu.model.ContentModel;
 import com.xiaoyu.model.DialogModel;
 import com.xiaoyu.model.MatchModel;
-import com.xiaoyu.model.ModelFactory;
 import com.xiaoyu.model.RunModel;
 import com.xiaoyu.string.StrUtil;
 
@@ -100,7 +99,8 @@ public class CataloguePanel extends JPanel implements Initializer{
 		JButton modelOff = new JButton("off");
 		JPanel model = new JPanel();
 		JTextField field = new JTextField(10);
-		field.addFocusListener(new CatalogueFocusListener(field));
+//		field.addFocusListener(new CatalogueFocusListener(field));
+		field.addKeyListener(new SearchKeyListener(dialogModel.getCurrentDialogFiles(), field));
 		CardLayout cardLayout = new CardLayout();
 		model.setLayout(cardLayout);
 		model.add(modelOn, "on");
